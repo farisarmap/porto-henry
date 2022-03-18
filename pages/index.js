@@ -6,14 +6,14 @@ export default function Home() {
 		<div className='bg-background min-h-screen pt-20 flex flex-col justify-center items-center px-14'>
 			<div className='flex border-t-4 border-b-4 border-black'>
 				<div className='lg:w-10/12 lg:flex lg:flex-col border-black'>
-					<div className=' h-36 border-b-4 border-black'>
+					<div className=' h-3/6 border-b-4 flex flex-col justify-around border-black'>
 						<p className=' text-7xl py-1 font-bold h-20'>
 							Henry Prasetyo
 						</p>
-						<p className=' text-4xl pt-2'>UI/UX Designer</p>
+						<p className=' text-4xl pb-2'>UI/UX Designer</p>
 					</div>
-					<div className='h-32 flex border-black'>
-						<div className=' w-3/6 border-r-4 border-black'>
+					<div className='h-3/6 flex border-black'>
+						<div className='w-3/6 flex justify-center items-center border-r-4 border-black'>
 							<p className=' text-base mr-14 my-3'>
 								Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit. Massa consequat tincidunt

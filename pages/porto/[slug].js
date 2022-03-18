@@ -1,8 +1,12 @@
 export default function Porto() {
 	return (
 		<div className='bg-background min-h-screen pt-20 px-14 pb-40 flex flex-col items-center'>
-			<div className='w-10/12'>
-				<img src='/images/detail-1.svg' alt='' />
+			<div className='w-10/12 border-2'>
+				<img
+					src='/images/detail-1.svg'
+					alt=''
+					className='object-cover object-cover min-w-full min-h-full h-full'
+				/>
 			</div>
 			<div className='w-9/12 flex justify-between pt-11'>
 				<div className='w-8/12'>
